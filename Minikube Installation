@@ -21,6 +21,16 @@ Step 7: Make sure you open Oracle VirtualBox
         minikube start --driver=virtualbox(enter)
         Now we are able to see prerequisites are downloading in the terminal
         May take some time to download the related stuff around 500.00 MB
+        Ste 8: Install Kubectl on windows
+        open CMD Prompt and paste the command
+        curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/windows/amd64/kubectl.exe
+        
+        
+        Execution Part
+        --------------
+Step 1: To check the list of nodes
+        kubectl get nodes
+Step 2: kubec
         
         
         
