@@ -17,7 +17,8 @@ Step 6: Double click on the minikube.exe
         Follow the general procedure for installation
 Step 7: Make sure you open Oracle VirtualBox
         in Powershell/CMD prompt provide (if it is in open state please close and reopen the terminals)
-        minikube start (enter)
+        minikube config set driver virtualbox
+        minikube start --driver=virtualbox(enter)
         Now we are able to see prerequisites are downloading in the terminal
         May take some time to download the related stuff around 500.00 MB
         
