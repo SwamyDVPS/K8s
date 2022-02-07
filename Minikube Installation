@@ -24,13 +24,3 @@ Step 7: Make sure you open Oracle VirtualBox
 Ste 8: Install Kubectl on windows
         open CMD Prompt and paste the command
         curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/windows/amd64/kubectl.exe
-        
-        
-        Execution Part
-        --------------
-Step 1: To check the list of nodes
-        kubectl get nodes
-Step 2: kubec
-        
-        
-        
