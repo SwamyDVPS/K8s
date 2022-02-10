@@ -20,3 +20,40 @@ Basic Commands:
 * To view the deployed pods/available pods
         kubectl get pods
         
+Managing the Pods:
+------------------
+
+In general, in kubernetes cluster we will deal with either Single-node or multi-node.
+Eg:     When we are going to deal with more than 2 systems/machines we can call it as multinode
+        Here we dealt with only one-node with the help of VirtualBox, it is called as singlenode.
+NOTE: In general multi node will be acceptable, whereas single node is not at all required for production environments only for practice perpose.
+
+What is a POD?
+* A POD is a collection of Container(s) or Dependency Containers. Volumes.
+* In general 1 Pod - 1 Container is recommended. (We can use dependency container but not for mandate)
+* We can scale-up and scale-down the pods, it is called as Replica-Sets
+* If we create 2 PODS, the content which is available in POD-1 will have the save in POD-2 too.
+* Even replications/replicaset is also managed by minikube, by mentioning all in the app deployment file (which is .yml or yaml)
+* If a POD goes down, the replicaset will create another POD
+* Depends on the Replicaset count which was provided in the deployment file, all will be managable.
+All these tasks will be managable by Kubernetes, by that way we are going to manage the PODS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
